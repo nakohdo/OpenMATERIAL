@@ -2,8 +2,8 @@
 # Source: https://code.asam.net/common/templates/antora-base-repo-example/-/blob/standard_generator/site.yml
 # tag::site[]
 site:
-  title: ASAM OpenMATERIAL
-  url: https://asam-ev.github.io/OpenMATERIAL/
+  title: ASAM OpenMATERIAL (nakohdo)
+  url: # https://asam-ev.github.io/OpenMATERIAL/
   start_page: asamopenmaterial:specification:index.adoc 
 # end::site[]
 urls: # Creates a redirect for the newest version to the link "latest"
@@ -13,7 +13,7 @@ urls: # Creates a redirect for the newest version to the link "latest"
 # tag::content[]
 content:
   sources:
-  - url: https://github.com/asam-ev/OpenMATERIAL.git
+  - url: https://github.com/nakohdo/OpenMATERIAL.git # https://github.com/asam-ev/OpenMATERIAL.git
     branches: [main, v*.*.*]  
     tags: [v*,V*]
     start_path: .antora

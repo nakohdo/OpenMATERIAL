@@ -3,7 +3,7 @@
 # tag::site[]
 site:
   title: ASAM OpenMATERIAL (nakohdo)
-  url: # https://asam-ev.github.io/OpenMATERIAL/
+  url: https://nakohdo.github.io/OpenMATERIAL/ # https://asam-ev.github.io/OpenMATERIAL/
   start_page: asamopenmaterial:specification:index.adoc 
 # end::site[]
 urls: # Creates a redirect for the newest version to the link "latest"

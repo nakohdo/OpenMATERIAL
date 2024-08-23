@@ -1,7 +1,6 @@
 = Model structure (TEST)
 
 == Sample
-Source: https://nikostotz.de/blog/tree-in-asciidoctor.html
 
 [plantuml, format=svg, opts="inline"]
 ----

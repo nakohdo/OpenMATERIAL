@@ -2,7 +2,7 @@
 
 == Sample
 
-[plantuml]
+[plantuml , format=svg]
 
 ----
 skinparam Legend {

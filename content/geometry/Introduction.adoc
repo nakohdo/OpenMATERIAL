@@ -2,7 +2,8 @@
 
 == Sample
 
-[plantuml, format=svg, opts="inline"]
+[plantuml]
+
 ----
 skinparam Legend {
 	BackgroundColor transparent

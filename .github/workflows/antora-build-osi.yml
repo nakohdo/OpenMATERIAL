@@ -3,7 +3,7 @@ name: Antora build (based on OSI)
 on:
   push:
     branches: [ main ]
-# Allow to triger workflow manually    
+# Allow to trigger workflow manually    
   workflow_dispatch:
 
 jobs:

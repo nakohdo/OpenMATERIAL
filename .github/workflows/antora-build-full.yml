@@ -1,4 +1,4 @@
-name: Antora build (based on OSI)
+name: Full Antora build (based on OSI)
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
       MUP_KEY: ${{ secrets.MACHINE_USER_PAT }}
 
     steps:
-    - name: Trigger generator
+    - name: Trigger Antora generator
       if: ${{ env.MUP_KEY != '' }}
       uses: peter-evans/repository-dispatch@v3
       with:

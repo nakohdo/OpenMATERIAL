@@ -22,7 +22,11 @@ end legend
 
 [plantuml]
 ----
-
+skinparam Human {
+	BackgroundColor transparent
+	BorderColor transparent
+}
+human
 Skeleton
 |_Root_Bone (T)
   |_ Hip (T)
@@ -64,4 +68,5 @@ Skeleton
 Body
 Hair
 Clothing
+end human
 ----

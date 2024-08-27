@@ -23,8 +23,8 @@ end legend
 [plantuml ]
 ----
 skinparam Legend {
-	BackgroundColor transparent
-	BorderColor transparent
+	BackgroundColor yellow
+	BorderColor red
 }
 legend
 Skeleton

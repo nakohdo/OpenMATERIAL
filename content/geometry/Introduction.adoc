@@ -7,7 +7,9 @@
 skinparam Legend {
 	BackgroundColor transparent
 	BorderColor transparent
+	
 }
+scale 500 width
 legend
 Root
 |_ Element 1 [[https://google.de]]

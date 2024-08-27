@@ -10,8 +10,8 @@ skinparam Legend {
 }
 legend
 Root
-|_ Element 1
-  |_ Element 1.1
+|_ Element 1 [[https://google.de]]
+  |_ Element 1.1 [[http://plantuml.com{Optional tooltip} This label is printed]]
   |_ Element 1.2
 |_ Element 2
   |_ Element 2.1

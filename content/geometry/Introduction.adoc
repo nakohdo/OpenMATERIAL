@@ -20,7 +20,7 @@ end legend
 
 == Human model structure
 
-[plantuml ]
+[plantuml, format=svg]
 ----
 skinparam Legend {
 	BackgroundColor yellow

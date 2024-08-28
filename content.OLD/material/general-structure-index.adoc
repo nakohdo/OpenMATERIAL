@@ -1,9 +1,0 @@
-= Material
-
-include::Introduction.adoc[leveloffset=+1]
-
-include::Fileformat.adoc[leveloffset=+2]
-
-include::Metadata.adoc[leveloffset=+3]
-
-include::Material-parameters.adoc[leveloffset=+1]

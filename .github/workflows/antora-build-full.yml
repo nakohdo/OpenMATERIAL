@@ -12,15 +12,14 @@ jobs:
 
     runs-on: Ubuntu-latest
 
-  #  env:
-  #    MUP_KEY: ${{ secrets.MACHINE_USER_PAT }}
+    env:
+      MUP_KEY: ${{ secrets.ASAM_DISPATCH }}
 
     steps:
     - name: Trigger Antora generator
-    #  if: ${{ env.MUP_KEY != '' }}
+      if: ${{ env.MUP_KEY != '' }}
       uses: peter-evans/repository-dispatch@v3
       with:
-        # token: ${{ secrets.MACHINE_USER_PAT }}
         token: ${{ secrets.ASAM_DISPATCH }} 
         event-type: antora-build-trigger
         repository: nakohdo/openmaterial-antora-generator 
